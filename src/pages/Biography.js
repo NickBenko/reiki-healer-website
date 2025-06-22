@@ -16,7 +16,7 @@ const Biography = () => {
           <AnimatedSection className="bg-white rounded-xl shadow-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row items-center mb-8">
               <img 
-                src="/claudia-britoss.jpg" 
+                src={process.env.PUBLIC_URL + '/claudia-britoss.jpg'} 
                 alt={t('biography.name')} 
                 className="w-64 h-64 rounded-full object-cover shadow-lg mb-6 md:mb-0 md:mr-8"
               />

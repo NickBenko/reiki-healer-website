@@ -8,35 +8,35 @@ const Services = () => {
   const services = [
     {
       id: 'session30',
-      image: '/servicio-30min.jpg',
+      image: process.env.PUBLIC_URL + '/servicio-30min.jpg',
       title: t('services.session30.title'),
       description: t('services.session30.description'),
       price: t('services.session30.price')
     },
     {
       id: 'session60',
-      image: '/servicio-60min.jpg',
+      image: process.env.PUBLIC_URL + '/servicio-60min.jpg',
       title: t('services.session60.title'),
       description: t('services.session60.description'),
       price: t('services.session60.price')
     },
     {
       id: 'chakra',
-      image: '/chakras.jpg',
+      image: process.env.PUBLIC_URL + '/chakras.jpg',
       title: t('services.chakra.title'),
       description: t('services.chakra.description'),
       price: t('services.chakra.price')
     },
     {
       id: 'pets',
-      image: '/reiki-mascotas.jpg',
+      image: process.env.PUBLIC_URL + '/reiki-mascotas.jpg',
       title: t('services.pets.title'),
       description: t('services.pets.description'),
       price: t('services.pets.price')
     },
     {
       id: 'package',
-      image: '/paquete-sesiones.jpg',
+      image: process.env.PUBLIC_URL + '/paquete-sesiones.jpg',
       title: t('services.package.title'),
       description: t('services.package.description'),
       price: t('services.package.price')

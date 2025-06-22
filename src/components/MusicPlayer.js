@@ -46,7 +46,7 @@ const MusicPlayer = () => {
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
-      <audio ref={audioRef} src="/relaxing-music.mp3" loop />
+      <audio ref={audioRef} src={process.env.PUBLIC_URL + '/relaxing-music.mp3'} loop />
       <button
         onClick={togglePlayPause}
         className="bg-white/80 border border-primary-dark text-primary-dark rounded-full p-4 shadow-2xl hover:bg-primary transition-colors flex items-center justify-center"
